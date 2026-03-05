@@ -1,6 +1,5 @@
 [unique-names-data]
 git-tree-sha1 = "b5ca046044766e83ad020ca869241c8b9aaff85f"
-lazy = true
 
     [[unique-names-data.download]]
     sha256 = "e2255dad0b7a93f29184cf4e1a253d1bb0842a5999986fbeff4b1c6818ca559b"
