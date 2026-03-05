@@ -31,8 +31,8 @@
 !src/
 !src/*.jl
 
-!deps/
-!deps/*.jl
+!scripts/
+!scripts/*.jl
 
 !docs/
 !docs/*.jl

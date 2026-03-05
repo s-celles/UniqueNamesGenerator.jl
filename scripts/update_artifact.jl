@@ -1,3 +1,7 @@
+# Maintainer script — regenerate Artifacts.toml when the data release changes.
+# Run manually:  julia scripts/update_artifact.jl
+# NOT in deps/build.jl to avoid automatic execution by Pkg.build().
+
 using Pkg, Pkg.Artifacts
 using Tar, Inflate, SHA
 
