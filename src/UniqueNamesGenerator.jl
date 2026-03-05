@@ -3,6 +3,7 @@ module UniqueNamesGenerator
 using Random
 using Unicode
 using Artifacts
+using LazyArtifacts
 
 export generate_name, load_dictionary
 export ADJECTIVES, ANIMALS, COLORS, NOUNS, CELESTIAL, SCIENCE, NATURE, NUMBERS
