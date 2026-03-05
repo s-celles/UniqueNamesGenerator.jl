@@ -27,6 +27,15 @@ generate_name([ADJECTIVES, ANIMALS]; rng=MersenneTwister(42))
 
 ## Built-in Dictionaries
 
+The word lists are maintained in a **separate data repository**:
+[`unique-names-data`](https://github.com/s-celles/unique-names-data/).
+
+Decoupling data from code allows the dictionaries to be updated, enriched, or
+reused by other projects (in any language) without releasing a new version of the
+Julia package.  The data is fetched at build time via the Julia
+[Artifacts](https://pkgdocs.julialang.org/v1/artifacts/) system and cached
+locally.
+
 | Constant      | Description                                       |
 |---------------|---------------------------------------------------|
 | `ADJECTIVES`  | Common adjectives                                 |

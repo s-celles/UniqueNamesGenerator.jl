@@ -16,6 +16,12 @@ generate_name
 load_dictionary
 ```
 
+## Internals
+
+```@docs
+UniqueNamesGenerator._combination_count
+```
+
 ## Errors
 
 ```@docs
