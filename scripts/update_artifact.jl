@@ -7,8 +7,8 @@ using Tar, Inflate, SHA
 
 function main()
     # URL and hash of the data tarball
-    url = "https://github.com/s-celles/unique-names-data/releases/download/v0.1.1/unique-names-data.tar.gz"
-    tarball_sha256 = "e2255dad0b7a93f29184cf4e1a253d1bb0842a5999986fbeff4b1c6818ca559b"
+    url = "https://github.com/s-celles/unique-names-data/releases/download/v0.2.0/unique-names-data.tar.gz"
+    tarball_sha256 = "9ad9f2b6cd3bf56045a3faa2db6fd28fb0183defca4581bb4db6e0e109d536d9"
 
     # Create the artifact by downloading and unpacking the tarball
     artifact_hash = create_artifact() do artifact_dir
@@ -32,7 +32,7 @@ function main()
         "unique-names-data",
         artifact_hash;
         download_info = [(url, tarball_sha256)],
-        lazy = true,
+        lazy = false, # Eager download at install time — offline-friendly
         force = true, # Overwrite existing binding
     )
 end

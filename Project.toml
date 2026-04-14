@@ -1,6 +1,6 @@
 name = "UniqueNamesGenerator"
 uuid = "5c885c3a-e8ef-4832-bb46-f82d698e97a0"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["s-celles <s.celles@gmail.com>"]
 
 [deps]

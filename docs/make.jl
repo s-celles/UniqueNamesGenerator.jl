@@ -23,8 +23,10 @@ makedocs(;
     ],
 )
 
-deploydocs(;
-    repo = "github.com/s-celles/UniqueNamesGenerator.jl",
-    devbranch = "main",
-    push_preview = true,
-)
+if get(ENV, "CI", "false") == "true"
+    deploydocs(;
+        repo = "github.com/s-celles/UniqueNamesGenerator.jl",
+        devbranch = "main",
+        push_preview = true,
+    )
+end
