@@ -6,9 +6,4 @@
 
 Generate unique, memorable, human-readable names from configurable word-list dictionaries.
 
-```julia
-using UniqueNamesGenerator
-generate_name()  # "Brave Elegant Dolphin"
-```
-
 **[Documentation (stable)](https://s-celles.github.io/UniqueNamesGenerator.jl/stable/)** | **[Documentation (dev)](https://s-celles.github.io/UniqueNamesGenerator.jl/dev/)**
