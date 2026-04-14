@@ -4,10 +4,31 @@
 CurrentModule = UniqueNamesGenerator
 ```
 
+## Types
+
+```@docs
+UniqueName
+RenderOptions
+```
+
 ## Name Generation
 
 ```@docs
-generate_name
+generate
+```
+
+## Rendering
+
+```@docs
+render
+```
+
+## Render Presets
+
+```@docs
+TITLE
+SLUG
+SCREAMING_SNAKE
 ```
 
 ## Dictionary Loading
